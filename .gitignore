@@ -1,0 +1,53 @@
+#Autosave files
+*~
+
+#build
+**/[Oo]bj/
+**/[Bb]in/
+packages/
+.vs/
+
+# works
+Expanded/Expanded.VEngine/
+XLabs/Serialization/
+XLabs/Caching/XLabs.Caching.Net45
+XLabs/Caching/XLabs.Caching.Sqlite
+
+# globs
+Makefile.in
+*.DS_Store
+*.sln.cache
+*.suo
+*.cache
+*.pidb
+*.userprefs
+*.usertasks
+config.log
+config.make
+config.status
+aclocal.m4
+install-sh
+autom4te.cache/
+*.user
+*.tar.gz
+tarballs/
+test-results/
+Thumbs.db
+*.cache
+Temporary*
+
+#Mac bundle stuff
+*.dmg
+*.app
+
+#resharper
+*_Resharper.*
+*.Resharper
+
+#dotCover
+*.dotCover
+
+*.csproj.bak
+*.nupkg
+*.lock.json
+.gitignore.orig
